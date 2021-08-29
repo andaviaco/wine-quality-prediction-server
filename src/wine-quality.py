@@ -1,3 +1,5 @@
+# script used to test the algorithms
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
