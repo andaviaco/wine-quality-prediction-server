@@ -31,5 +31,5 @@ model.fit(xtrain, ytrain)
 print(model.score(xtest, ytest))
 print(model.score(xtrain, ytrain))
 
-joblib.dump(model, '../models/model-test.joblib')
-joblib.dump(sc_x, '../models/model-scaler-test.joblib')
+joblib.dump(model, '../models/model-sk22.joblib')
+joblib.dump(sc_x, '../models/model-scaler-sk22.joblib')
