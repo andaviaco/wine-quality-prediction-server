@@ -1,5 +1,4 @@
-Wine Quality Predictor Server
----<!-- omit in toc -->
+# Wine Quality Predictor Server<!-- omit in toc -->
 
 Backend server for the [Wine Quality Predictor](https://github.com/andaviaco/wine-quality-prediction).
 
