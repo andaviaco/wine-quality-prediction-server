@@ -1,8 +1,8 @@
 import numpy as np
 from sklearn.externals import joblib
 
-model = joblib.load('model.joblib')
-scaler = joblib.load('model-scaler.joblib')
+model = joblib.load('../model/model.joblib')
+scaler = joblib.load('../model/model-scaler.joblib')
 
 def predict(raw_values):
   values = (np.array(raw_values)).reshape(1, -1)

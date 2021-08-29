@@ -10,6 +10,7 @@ CORS(app)
 def index():
     return "Hello World!"
 
+# TODO: use GET method
 @app.route('/predict', methods=['POST'])
 def predict():
   values = request.json['values']

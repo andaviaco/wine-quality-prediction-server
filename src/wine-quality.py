@@ -8,7 +8,7 @@ from sklearn.svm import SVC, SVR
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-df = pd.read_csv('winequality-red.csv')
+df = pd.read_csv('../dataset/winequality-red.csv')
 
 x = df.loc[:, df.columns != 'quality']
 y = df['quality']
