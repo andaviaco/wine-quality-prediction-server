@@ -16,7 +16,7 @@ Backend server for the [Wine Quality Predictor](https://github.com/andaviaco/win
 
 ## About the project
 **Note**:
-Be aware was one-weekend project I built back in 2018.
+Be aware this was a one-weekend project I built back in 2018.
 
 The goal is to predict the sensorial quality of a wine base on its physicochemical qualities
 
